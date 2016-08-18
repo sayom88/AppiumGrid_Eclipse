@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" annotations="JDK" parallel="tests">
+    
+    <test name="RUN1">  
+        <parameter name="Device_ID" value="8TVK8T6S9SNFHEQ4" />
+        <parameter name="OS_Version" value="5.1.1" />
+        <classes>
+			<class name="pack.Configuration" >
+			<methods>
+			    <include name="searchTescoStore"/>
+			</methods>
+			</class>
+		</classes>
+    </test>
+    
+    
+    
+    </suite>

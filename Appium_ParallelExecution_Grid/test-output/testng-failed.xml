@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="Device_ID" value="8TVK8T6S9SNFHEQ4"/>
+  <parameter name="OS_Version" value="5.1.1"/>
+  <test name="RUN1(failed)" parallel="tests">
+    <parameter name="Device_ID" value="8TVK8T6S9SNFHEQ4"/>
+    <parameter name="OS_Version" value="5.1.1"/>
+    <classes>
+      <class name="pack.Configuration">
+        <methods>
+          <include name="searchTescoStore"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- pack.Configuration -->
+    </classes>
+  </test> <!-- RUN1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
