@@ -26,7 +26,7 @@ public class Configuration {
 		{
 			
 			setupCapabilities(Device_ID,OS_Version);
-			System.out.println("Into Device ID::::"+Device_ID);
+			System.out.println("Into Device ID::"+Device_ID);
 			driver = new AndroidDriver(new URL("http://9.84.222.111:5555/wd/hub"), capabilities);
 		}
 		if(Device_ID.equalsIgnoreCase("emulator-5554"))
